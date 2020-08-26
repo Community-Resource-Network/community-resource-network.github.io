@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home | Community Resource Network</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="assets/img/favicon.png">
+    <meta name="twitter:title" content="Community Resource Network">
+    <link rel="icon" type="image/png" sizes="607x679" href="assets/img/favicon2.png">
+    <link rel="icon" type="image/png" sizes="607x679" href="assets/img/favicon2.png">
+    <link rel="icon" type="image/png" sizes="607x679" href="assets/img/favicon2.png">
+    <link rel="icon" type="image/png" sizes="607x679" href="assets/img/favicon2.png">
+    <link rel="icon" type="image/png" sizes="607x679" href="assets/img/favicon2.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<script>
+"use strict";!function(e){"function"==typeof define&&define.amd?define(e):"undefined"!=typeof module&&module.exports?module.exports=e():window.enterView=e.call(this)}(function(){var e=function(e){function n(){g=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(e){return setTimeout(e,1e3/60)}}function t(){if(h&&"number"==typeof h){var e=Math.min(Math.max(0,h),1);return q-e*q}return q}function i(){var e=document.documentElement.clientHeight,n=window.innerHeight||0;q=Math.max(e,n)}function o(){y=!1;var e=t();A=A.filter(function(n){var t=n.getBoundingClientRect(),i=t.top,o=i<e;if(o&&!n.__enter_view){if(m(n),_)return!1}else!o&&n.__enter_view&&w&&w(n);return n.__enter_view=o,!0}),A.length||window.removeEventListener("scroll",r,!0)}function r(){y||(y=!0,g(o))}function u(){i(),o()}function f(e){for(var n=e.length,t=[],i=0;i<n;i+=1)t.push(e[i]);return t}function c(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:document;return"string"==typeof e?f(n.querySelectorAll(e)):e instanceof NodeList?f(e):e instanceof Array?e:void 0}function d(){A=c(l)}function a(){window.addEventListener("resize",u,!0),window.addEventListener("scroll",r,!0),u()}function s(){var e=l&&m;e||console.error("must set selector and enter options"),n(),d(),a(),o()}var l=e.selector,m=e.enter,w=e.exit,v=e.offset,h=void 0===v?0:v,p=e.once,_=void 0!==p&&p,g=null,y=!1,A=[],q=0;s()};return e});
+</script>
+<style>
+body {
+    background-color: #c6d7de;
+    font-family: 'Montserrat';
+    padding: 3em;
+}
+
+#v0 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+div {
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+.nav-links {
+    padding-left: 10px;
+}
+
+#set-height {
+    display: block;
+}
+
+section {
+    z-index: 1;
+    position: relative;
+}
+
+.content {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 33.3%;
+}
+
+h1 {
+    font-size: 3em;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+p,
+li {
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.h2-l {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Custom default button */
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+.masthead,
+footer {
+    z-index: 100;
+    user-select: none;
+    position: fixed;
+}
+
+.masthead {
+    margin: auto;
+    left: 35%;
+}
+
+.masthead-brand {
+    padding-right: 10px;
+    margin-top: -15px;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+.fade-black {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 150px;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+section:nth-of-type(1) {
+    height: 1000px;
+}
+
+section:nth-of-type(2) {
+    height: 1000px;
+}
+
+section:nth-of-type(3) {
+    height: 1000px;
+}
+
+section:nth-of-type(4) {
+    height: 1000px;
+}
+
+section:nth-of-type(5) {
+    height: 1000px;
+}
+
+section:nth-of-type(6) {
+    height: 1000px;
+}
+
+section:nth-of-type(7) {
+    height: 1000px;
+}
+
+section:nth-of-type(8) {
+    height: 0px;
+}
+
+section:nth-of-type(9) {
+    height: 0px;
+}
+
+.entered {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-7-4 16:24:12
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body><div style="position: fixed; width: 100vw; height: 100vh; z-index: 0; margin: 0; top: 0; left: 0; padding: 0; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))" id="shade"></div>
+<header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">
+                <a href="index.html"><img class="rounded" height="60" src="assets/img/crn-dark-new2.png"></a>
+            </h3>
+            <style>
+                .action-button2 {
+                    background: #56c6c6;
+                    text-decoration: none;
+                    margin-left: 1rem;
+                }
+                .action-button2:hover {
+                    background: #9ad9d9;
+                    text-decoration: none;
+                }
+            </style>
+            <nav class="nav nav-masthead nav-links justify-content-center">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="volunteer.html">Volunteer</a>
+                <a class="nav-link" href="partners.html">Partners</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                <a style="border-radius: 20px; font-size: inherit; color: #fff; box-shadow: none; border: none; text-shadow: none; padding: .5rem 1rem; transition: background-color 0.25s; font-size: inherit;" class="action-button2" href="donate.html">Donate</a>
+            </nav>
+        </div>
+    </header>
+    <div class="fade-black"></div>
+
+    <section class="container">
+        <div class="content">
+            <!--<h1>Welcome to</h1>
+            <p></p>-->
+            <h1>Community Resource Network</h1>
+            <p></p>
+            <h2 class="h2-l">Our Mission:</h2>
+            <p>To rescue surplus food and usable items for redistribution to organizations and families in need in our communities, to reduce and prevent waste, and to encourage better management of the surplus that would otherwise end up in landfills.
+            </p>
+            <p><br><br><i>Scroll down to learn more about our organization and core values...</i></p><p></p><p></p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h1>Resourcefulness</h1>
+            <ul class="list">
+                <li class="list-item">We saved more than 2.2 million pounds of unsalable grocery and household items from general disposal last year.</li>
+                <li class="list-item">We consistently serve over 500 households in the greater Puget Sound/Salish Sea area.</li>
+                <li class="list-item">Our 100% volunteer structure and business model provide economical, streamlined services without burdening taxpayers.</li>
+                <li class="list-item">Our volunteer members become adept at utilizing and repurposing a wide variety of items that would otherwise be tossed.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h1>Environmental Responsibility</h1>
+            <ul class="list">
+                <li class="list-item">CRN is committed to the thoughtful distribution of all usable donations that we receive.</li>
+                <li class="list-item">Inedible grocery items are utilized by local farmers and gardeners before being considered for city/county compost.</li>
+                <li class="list-item">Packaging from inedible grocery donations is separated out for reuse or recycling.</li>
+                <li class="list-item">Returned, damaged or shopworn items are distributed or repurposed before being considered for recycling or disposal.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h1>Personal Responsibility and Growth</h1>
+            <p>Through the recovery and distribution of donated groceries and household goods, Community Resource Network (CRN) embraces and aspires to the following principles:</p>
+            <ul class="list">
+                <li class="list-item">Our volunteer members are acutely aware of the ripple effect created through meeting basic human needs. Each need we meet frees up resources for meeting other needs in our community and in the world.</li>
+                <li class="list-item">Many of our volunteer members receive a portion of the donations. These volunteer members show up consistently to work hard and realize the great value of their labor.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h1>Reliability</h1>
+            <p>CRN is a highly structured organization with a clear chain of accountability.</p>
+            <ul class="list">
+                <li class="list-item">Our teams process donations 7 days a week including major holidays.</li>
+                <li class="list-item">Our teams process donations during inclement weather.</li>
+                <li class="list-item">We accept virtually any item offered by our donating partners.</li>
+                <li class="list-item">We maintain records of donations and can supply the record to donors for tax purposes.</li>
+                <li class="list-item">Our volunteer members realize the strength of a committed team effort and are particularly reliable in fulfilling their assigned duties for the organization.</li>
+                <li class="list-item">Our volunteer members willingly support and fill in for one another when calendar conflicts, sickness or emergencies arise.</li>
+            </ul>
+        </div>
+    </section>
+    <section class="container">
+        <div class="content">
+            <h1>Serving Our Community</h1>
+            <p>CRN serves as a conduit for businesses to positively impact area communities such as:</p>
+            <ul class="list">
+                <li class="list-item">Senior housing communities</li>
+                <li class="list-item">Smaller, local foodbanks</li>
+                <li class="list-item">Other non-profit assistance organizations</li>
+                <li class="list-item">Shelters/Homeless</li>
+                <li class="list-item">Immigrant families</li>
+                <li class="list-item">Disabled individuals</li>
+                <li class="list-item">Unemployed/Underemployed households/individuals</li>
+                <li class="list-item">Isolated senior citizens and individuals</li>
+                <li class="list-item">Families in short-term crisis situations</li>
+                <li class="list-item">Volunteer member households</li>
+            </ul>
+        </div>
+    </section>
+    <section class="container">
+        <div class="content">
+            <h1>Dignity</h1>
+            <ul class="list">
+                <li class="list-item">Many of our beneficiaries are isolated, reluctant to ask for help or overlooked by other organized distribution systems. By identifying and delivering necessities to such families/individuals, CRN volunteer members make a personal connection
+                    that conveys dignity and worth.</li>
+                <li class="list-item">Our volunteer members may receive a portion of donations. These volunteer members work diligently and preserve personal dignity through the sense of ‘earning’ through service.</li>
+            </ul>
+        </div>
+    </section>
+    <section class="space"></section>
+    <section class="container">
+        <footer class="footer mt-auto py-3">
+            <div class="inner">
+                <p>© CRN, a 501(c)3 non-profit organization since 2002</p>
+            </div>
+        </footer>
+    </section>
+
+    <div id="set-height"></div>
+    <div id="v0">
+
+    </div>
+
+    <script>
+	"use strict";!function(e){"function"==typeof define&&define.amd?define(e):"undefined"!=typeof module&&module.exports?module.exports=e():window.enterView=e.call(this)}(function(){var e=function(e){function n(){g=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(e){return setTimeout(e,1e3/60)}}function t(){if(h&&"number"==typeof h){var e=Math.min(Math.max(0,h),1);return q-e*q}return q}function i(){var e=document.documentElement.clientHeight,n=window.innerHeight||0;q=Math.max(e,n)}function o(){y=!1;var e=t();A=A.filter(function(n){var t=n.getBoundingClientRect(),i=t.top,o=i<e;if(o&&!n.__enter_view){if(m(n),_)return!1}else!o&&n.__enter_view&&w&&w(n);return n.__enter_view=o,!0}),A.length||window.removeEventListener("scroll",r,!0)}function r(){y||(y=!0,g(o))}function u(){i(),o()}function f(e){for(var n=e.length,t=[],i=0;i<n;i+=1)t.push(e[i]);return t}function c(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:document;return"string"==typeof e?f(n.querySelectorAll(e)):e instanceof NodeList?f(e):e instanceof Array?e:void 0}function d(){A=c(l)}function a(){window.addEventListener("resize",u,!0),window.addEventListener("scroll",r,!0),u()}function s(){var e=l&&m;e||console.error("must set selector and enter options"),n(),d(),a(),o()}var l=e.selector,m=e.enter,w=e.exit,v=e.offset,h=void 0===v?0:v,p=e.once,_=void 0!==p&&p,g=null,y=!1,A=[],q=0;s()};return e});
+	</script>
+    <script>
+
+    var pic = new Image();
+    var pic2 = new Image();
+    var pic3 = new Image();
+        var pic4 = new Image();
+        var pic5 = new Image();
+        var pic6 = new Image();
+        var pic7 = new Image();
+    pic.src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80";
+    pic2.src="https://images.unsplash.com/photo-1525695230005-efd074980869?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80";
+    pic3.src="https://miro.medium.com/max/3600/1*pKKv8eS4qcVf_yPHc6-eaQ.jpeg";
+        pic4.src="https://images.unsplash.com/photo-1584145513820-6fdbfa7e427a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80";
+        pic5.src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80";
+        pic6.src="https://images.unsplash.com/photo-1551985954-a317e5a04547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80";
+        pic7.src="https://images.unsplash.com/photo-1565615833231-e8c91a38a012?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
+        
+
+        var backNum = 0;
+
+        enterView({
+            selector: 'section',
+            enter: function(el) {
+                el.classList.add('entered');
+                changeBackground();
+            }
+        })
+        setHeight = document.getElementById("set-height"),
+            setHeight.style.height = "2000px";
+
+        function changeBackground() {
+            var newVal = 0;
+            if (getScrollPercent() < 0.07151559454191034) {
+                newVal = 0;
+            } else if (getScrollPercent() < 0.1949317738791423) {
+                newVal = 1;
+            } else if (getScrollPercent() < 0.32285575048732945) {
+                newVal = 2;
+            } else if (getScrollPercent() < 0.44639376218323584) {
+                newVal = 3;
+            } else if (getScrollPercent() < 0.5706627680311891) {
+                newVal = 4;
+            } else if (getScrollPercent() < 0.69432261208577) {
+                newVal = 5;
+            } else {
+                newVal = 6;
+            }
+            if (backNum != newVal) {
+                //console.log("rounded " + getScrollPercent() / 0.07249025341130605);
+                backNum = newVal;
+                //console.log("Changing background to " + backNum + "...");
+                changeBgTo(newVal);
+            }
+        }
+        
+        function changeBgTo(backNum) {
+            var backgrounds = ["https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1525695230005-efd074980869?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80", "https://miro.medium.com/max/3600/1*pKKv8eS4qcVf_yPHc6-eaQ.jpeg", "https://images.unsplash.com/photo-1584145513820-6fdbfa7e427a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80", "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80", "https://images.unsplash.com/photo-1551985954-a317e5a04547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80", "https://images.unsplash.com/photo-1565615833231-e8c91a38a012?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"];
+            document.getElementById("v0").style.backgroundImage = "url('" + backgrounds[backNum] + "')";
+            document.getElementById("v0").style.backgroundSize = "cover no-repeat";
+            if (backNum === 2) {
+                document.getElementById("v0").style.backgroundPosition = "50% 50%";
+            } else {
+                document.getElementById("v0").style.backgroundPosition = "50% 50%";
+            }
+        }
+
+        function getScrollPercent() {
+            var h = document.documentElement,
+                b = document.body,
+                st = 'scrollTop',
+                sh = 'scrollHeight';
+            return (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 1.0;
+        }
+        window.addEventListener("scroll", function(event) {
+            changeBackground();
+            //console.log(getScrollPercent());
+        });
+    </script>
+<style>
+    #v0 {
+        transition: 0.5s;
+        background-blend-mode: darken;
+        background-size: cover no-repeat;
+        background-image: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    }
+</style>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+</body>
+
+</html>
