@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://crninfo.org/about.html</loc>
+        <loc>https://crninfo.org/about</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/contact.html</loc>
+        <loc>https://crninfo.org/contact</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/donate.html</loc>
+        <loc>https://crninfo.org/donate</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/index.html</loc>
+        <loc>https://crninfo.org/index</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/partners.html</loc>
+        <loc>https://crninfo.org/partners</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/testimonials.html</loc>
+        <loc>https://crninfo.org/testimonials</loc>
     </url>
     <url>
-        <loc>https://crninfo.org/volunteer.html</loc>
+        <loc>https://crninfo.org/volunteer</loc>
     </url>
 </urlset>
