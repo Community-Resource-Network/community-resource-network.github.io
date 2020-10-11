@@ -243,11 +243,17 @@ section:nth-of-type(9) {
 }
 
 .action-button2 {
-    background: #56c6c6;
-    text-decoration: none;
-    margin-left: 1rem;
-  }
-  .action-button2:hover {
-    background: #9ad9d9;
-    text-decoration: none;
-  }
+  background: #56c6c6;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.action-button2:hover {
+  background: #9ad9d9;
+  text-decoration: none;
+}
+
+.container {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+}
