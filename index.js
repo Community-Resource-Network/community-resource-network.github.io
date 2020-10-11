@@ -208,8 +208,7 @@
         };
         return e;
       });
-    </script>
-    <script>
+
       var pic = new Image();
       var pic2 = new Image();
       var pic3 = new Image();
