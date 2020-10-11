@@ -257,3 +257,13 @@ section:nth-of-type(9) {
   scroll-snap-points-y: repeat(300px);
   scroll-snap-type: y mandatory;
 }
+
+section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+  }
+
+  html { /* body won't work ¯\_(ツ)_/¯ */
+    scroll-snap-type: y mandatory;
+  }
