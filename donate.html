@@ -242,7 +242,8 @@ thru"
                   <div class="col-md-4"></div>
                   <div class="col-md-4">
                     <img
-                      style="width: 175%; cursor: pointer" onclick="$('#paypal_form').submit()"
+                      style="width: 175%; cursor: pointer"
+                      onclick="$('#paypal_form').submit()"
                       src="/assets/img/paypal-donate-button.png"
                     />
                     <form
@@ -280,7 +281,13 @@ thru"
                 </div>
               </div>
               <div class="col-12 col-lg-6">
-                <form action="/charge" method="POST" id="stripe-form" style="opacity: 50%;">
+                <form
+                  disabled
+                  action="/charge"
+                  method="POST"
+                  id="stripe-form"
+                  style="opacity: 50%"
+                >
                   <div
                     class="card-js stripe"
                     data-stripe="true"
@@ -298,6 +305,7 @@ thru"
 											example"
                       >
                         <button
+                          disabled
                           type="button"
                           class="btn btn-outline-secondary amount-button"
                           style="flex: 1"
@@ -306,6 +314,7 @@ thru"
                           $5
                         </button>
                         <button
+                          disabled
                           type="button"
                           class="btn btn-outline-secondary amount-button"
                           style="flex: 1"
@@ -314,6 +323,7 @@ thru"
                           $10
                         </button>
                         <button
+                          disabled
                           type="button"
                           class="btn btn-outline-secondary amount-button"
                           style="flex: 1"
@@ -332,6 +342,7 @@ thru"
                       </div>
                       <div class="input-group" style="padding-top: 10px">
                         <input
+                          disabled
                           type="number"
                           class="form-control"
                           id="amount"
@@ -344,6 +355,7 @@ thru"
                     <div class="form-group">
                       <label for="the-card-name-id">Name</label>
                       <input
+                        disabled
                         type="text"
                         class="form-control name"
                         id="the-card-name-id"
@@ -355,6 +367,7 @@ thru"
                     <div class="form-group">
                       <label for="inputAmount">Email</label>
                       <input
+                        disabled
                         type="email"
                         class="form-control"
                         id="email"
@@ -366,6 +379,7 @@ thru"
                     <div class="form-group">
                       <label for="card-number">Card Number</label>
                       <input
+                        disabled
                         type="text"
                         class="form-control card-number"
                         name="card-number"
@@ -377,6 +391,7 @@ thru"
                     <div class="form-group">
                       <label for="expiry-month">Expiry Month</label>
                       <input
+                        disabled
                         type="text"
                         class="form-control expiry-month"
                         name="expiry-month"
@@ -388,6 +403,7 @@ thru"
                     <div class="form-group">
                       <label for="expiry-year">Expiry Year</label>
                       <input
+                        disabled
                         type="text"
                         class="form-control expiry-month"
                         name="expiry-year"
@@ -399,6 +415,7 @@ thru"
                     <div class="form-group">
                       <label for="cvc">CVC</label>
                       <input
+                        disabled
                         type="text"
                         class="form-control cvc"
                         name="cvc"
@@ -417,6 +434,7 @@ thru"
                       <p id="error-text"></p>
                     </div>
                     <button
+                      disabled
                       type="submit"
                       class="btn btn-primary btn-block"
                       style="
@@ -428,7 +446,9 @@ thru"
                     </button>
                   </div>
                 </form>
-                <script>$('#stripe-form').click(false);</script>
+                <script>
+                  $("#stripe-form").click(false);
+                </script>
               </div>
             </div>
           </div>
