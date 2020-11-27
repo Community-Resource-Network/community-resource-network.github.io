@@ -113,7 +113,6 @@
             <h1>Testimonials</h1>
           </div>
           <div class="col-lg-4">
-            
             <h2>Volunteers</h2>
             <p>
               Donec sed odio dui. Etiam porta sem malesuada magna mollis
@@ -129,7 +128,6 @@
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            
             <h2>Community Recipients</h2>
             <p>
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
@@ -154,10 +152,7 @@
       </div>
     </div>
     <section class="testimonials py-5 text-white px-1 px-md-5 margin-top-xl">
-      <img
-        src="assets/img/favicon2.png"
-        class="icon-overlay"
-      />
+      <img src="assets/img/favicon2.png" class="icon-overlay" />
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -554,16 +549,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script>
-      $(document).ready(function () {
-        $(".testimonial-carousel").slick({
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: false,
-          arrows: true,
-          prevArrow: $(".testimonial-carousel-controls .prev"),
-          nextArrow: $(".testimonial-carousel-controls .next"),
+      $.fn.shuffleChildren = function () {
+        $.each(this.get(), function (index, el) {
+          var $el = $(el);
+          var $find = $el.children();
+
+          $find.sort(function () {
+            return 0.5 - Math.random();
+          });
+
+          $el.empty();
+          $find.appendTo($el);
         });
+      };
+      $(document).ready(function () {
+        $(".testimonial-carousel").shuffleChildren();
+        var total = $(".testimonial-carousel")[0].childNodes.length, // get the number of slides
+          rand = Math.floor(Math.random() * total); // random number
+        $(".testimonial-carousel")
+          .slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            arrows: true,
+            prevArrow: $(".testimonial-carousel-controls .prev"),
+            nextArrow: $(".testimonial-carousel-controls .next"),
+          })
+          .slick("slickGoTo", rand); //navigate to random slide;
+        console.log(rand);
+        //$(".testimonial-carousel").shuffleChildren();
       });
     </script>
   </body>
