@@ -5,6 +5,10 @@
   padding-bottom: 30px;
 }
 
+.features-blue a {
+  color: #ffcc1e;
+}
+
 @media (max-width:767px) {
   .features-blue {
     padding-bottom: 10px;

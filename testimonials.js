@@ -20,7 +20,7 @@ $.fn.shuffleChildren = function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         arrows: true,
         prevArrow: $(".testimonial-carousel-controls .prev"),
         nextArrow: $(".testimonial-carousel-controls .next"),
