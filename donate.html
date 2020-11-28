@@ -442,16 +442,15 @@ thru"
                       <p id="error-text"></p>
                     </div>
                     <button
-                      disabled
-                      type="submit"
-                      class="btn btn-primary btn-block"
+                      type="button"
+                      class="btn btn-primary btn-block" onclick="$('#paypal_form').submit()"
                       style="
                         background-color: #32354c !important;
                         border-color: #32354c !important;
                       "
                     >
                       Donate
-                    </button>
+                    </button><!--Should be changed to "type=submit" when ready for use-->
                   </div>
                 </form>
                 <script>
