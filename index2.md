@@ -1,7 +1,7 @@
 ---
 title: Home
 testimonials: true
-layout: index2
+layout: index
 permalink: /index2
 ---
 Hello, world!
