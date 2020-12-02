@@ -4,37 +4,6 @@ description: Bringing food to the communities of Puget Sound
 
 lang: en-US
 
-# Pages to include in header navigation
-nav_pages:
-  - index.html
-  - volunteer.html
-  - partners.html
-  - about.html
-  - contact.html
-  - donate.html
-
-# Pages to include in footer navigation
-footer_pages:
-  - testimonials.md
-  - privacy-policy.md
-
-# Front matter defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      comments: true
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-
 # Plugins
 plugins:
   - jekyll-seo-tag
