@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Partners
 testimonials: true
 layout: default
 permalink: /partners2
