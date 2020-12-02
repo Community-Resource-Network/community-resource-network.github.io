@@ -1,3 +1,9 @@
+---
+title: Home
+testimonials: true
+layout: index
+permalink: /index2
+---
 # Community Resource Network
 ## Our Mission:
 To rescue surplus food and usable items for redistribution to organizations and families in need in our communities, to reduce and prevent waste, and to encourage better management of the surplus that would otherwise end up in landfills.
