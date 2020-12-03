@@ -3,6 +3,8 @@ title: About
 layout: default
 permalink: /about3
 ---
+<div class="header-blue" style="top: 0;/*padding: 0;*/margin-top: 0; background: url('https://www.nps.gov/romo/learn/nature/images/Wildflowers3.jpg?maxwidth=1200&amp;maxheight=1200&amp;autorotate=false'); background-size: cover; filter: blur(8px);  -webkit-filter: blur(6px); height:800px">
+</div>
 <div class="header" style="position: absolute; top: 250px; left: 100px; color: white; /*padding: 0;*/margin-top: 0;">
     <div class="container hero">
         <div class="row">
