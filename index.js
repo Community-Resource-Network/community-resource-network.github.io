@@ -307,11 +307,11 @@ window.mobileAndTabletCheck = function () {
   return check;
 };
 
-if (mobileAndTabletCheck && window.location != "https://crninfo.org/mobile") {
+if (mobileAndTabletCheck && window.location.href != "https://crninfo.org/mobile") {
   window.location = "https://crninfo.org/mobile";
 } else if (
   !mobileAndTabletCheck &&
-  window.location === "https://crninfo.org/mobile"
+  window.location.href === "https://crninfo.org/mobile"
 ) {
   window.location = "https://crninfo.org/";
 }
