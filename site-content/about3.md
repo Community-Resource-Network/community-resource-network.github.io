@@ -12,8 +12,8 @@ Federal Tax ID # 04-3655932
 UBI 602 205 486
 
 
-Community Resource Network
-P.O. Box 13202
+Community Resource Network<br>
+P.O. Box 13202<br>
 Mill Creek, WA 98082
 
 
