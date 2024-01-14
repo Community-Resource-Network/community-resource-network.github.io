@@ -4,7 +4,8 @@ layout: default
 permalink: /internal/stores
 ---
 
-# Stores
+<div class="container">
+<h1>Stores</h1>
 
 <div class="tabs">
   <button class="tab" onclick="openTab('team1')">Team 1</button>
@@ -26,3 +27,4 @@ permalink: /internal/stores
 </div>
 
 <!-- Add more divs for more teams -->
+</div>
