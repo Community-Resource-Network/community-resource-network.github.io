@@ -2,6 +2,7 @@
 title: Give Now
 layout: default
 ---
+
 <div class="contact-clean">
   <div class="container" style="padding-top: 40px">
     <div class="card" style="border-radius: 1rem !important">
@@ -30,7 +31,6 @@ layout: default
                 </div>
               </div>
             </div>
-
             <div class="d-none d-lg-block d-xl-block" style="padding-top: 90px"></div>
             <div class="d-none d-sm-block d-md-block" style="padding-top: 20px"></div>
             <div class="card-wrapper" data-jp-card-initialized="true">
@@ -67,15 +67,13 @@ layout: default
                       <div class="jp-card-name jp-card-display">
                         CARDHOLDER NAME
                       </div>
-                      <div class="jp-card-expiry jp-card-display" data-before="month/year" data-after="valid
-thru">
-                        **/****
-                      </div>
+                      <div class="jp-card-expiry jp-card-display" data-before="month/year" data-after="valid thru">
+                        **/\*\***</div>
                     </div>
                   </div>
                   <div class="jp-card-back">
                     <div class="jp-card-bar"></div>
-                    <div class="jp-card-cvc jp-card-display">***</div>
+                    <div class="jp-card-cvc jp-card-display">\*\*\*</div>
                     <div class="jp-card-shiny"></div>
                   </div>
                 </div>
@@ -83,20 +81,15 @@ thru">
             </div>
             <div class="d-none d-lg-block d-xl-block" style="padding-top: 105px"></div>
             <div class="d-none d-sm-block d-md-block" style="padding-top: 20px"></div>
-
             <div class="row align-items-center">
               <div class="col-md-4"></div>
               <div class="col-md-4">
-                <img style="width: 175%; max-width: 75vw; cursor: pointer" onclick="$('#paypal_form').submit()"
-                  src="/assets/img/paypal-donate-button.png" />
-                <form style="display: none" id="paypal_form" action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post" target="_top">
+                <img style="width: 175%; max-width: 75vw; cursor: pointer" onclick="$('#paypal_form').submit()" src="/assets/img/paypal-donate-button.png" />
+                <form style="display: none" id="paypal_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_donations" />
                   <input type="hidden" name="business" value="connie@schramandassociates.com" />
                   <input type="hidden" name="currency_code" value="USD" />
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                    name="submit" title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button" />
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                 </form>
               </div>
@@ -105,8 +98,7 @@ thru">
           </div>
           <div class="col-12 col-lg-6">
             <div class="alert alert-warning" role="alert">
-              We don't yet support credit card payments directly on this form. Instead, use the <a href="#"
-                onclick="$('#paypal_form').submit()">PayPal button below</a> to donate using PayPal.
+              We don't yet support credit card payments directly on this form. Instead, use the <a href="#" onclick="$('#paypal_form').submit()">PayPal button below</a> to donate using PayPal.
             </div>
             <form disabled action="/charge" method="POST" id="stripe-form" style="opacity: 50%">
               <div class="card-js stripe" data-stripe="true" style="padding-top: 20px">
@@ -115,74 +107,60 @@ thru">
                 <div class="form-group">
                   <label for="amount">Amount</label><br />
                   <div class="btn-group" style="display: flex; color: #32354c !important" role="group" aria-label="Basic
-											example">
-                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1"
-                      data-amount="5">
+    										example">
+                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1" data-amount="5">
                       $5
                     </button>
-                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1"
-                      data-amount="10">
+                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1" data-amount="10">
                       $10
                     </button>
-                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1"
-                      data-amount="25">
+                    <button disabled type="button" class="btn btn-outline-secondary amount-button" style="flex: 1" data-amount="25">
                       $25
                     </button>
-                    <button type="button" class="btn btn-outline-secondary amount-button" style="flex: 1"
-                      data-amount="50">
+                    <button type="button" class="btn btn-outline-secondary amount-button" style="flex: 1" data-amount="50">
                       $50
                     </button>
                   </div>
                   <div class="input-group" style="padding-top: 10px">
-                    <input disabled type="number" class="form-control" id="amount" name="amount"
-                      aria-describedby="amountHelp" placeholder="Enter amount" />
+                    <input disabled type="number" class="form-control" id="amount" name="amount" aria-describedby="amountHelp" placeholder="Enter amount" />
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="the-card-name-id">Name</label>
-                  <input disabled type="text" class="form-control name" id="the-card-name-id" name="card-holders-name"
-                    placeholder="Name on card" aria-describedby="nameHelp" />
+                  <input disabled type="text" class="form-control name" id="the-card-name-id" name="card-holders-name" placeholder="Name on card" aria-describedby="nameHelp" />
                 </div>
                 <div class="form-group">
                   <label for="inputAmount">Email</label>
-                  <input disabled type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
-                    placeholder="Enter email address" />
+                  <input disabled type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email address" />
                 </div>
                 <div class="form-group">
                   <label for="card-number">Card Number</label>
-                  <input disabled type="text" class="form-control card-number" name="card-number" id="card-number"
-                    aria-describedby="addressHelp" placeholder="Enter card number" />
+                  <input disabled type="text" class="form-control card-number" name="card-number" id="card-number" aria-describedby="addressHelp" placeholder="Enter card number" />
                 </div>
                 <div class="form-group">
                   <label for="expiry-month">Expiry Month</label>
-                  <input disabled type="text" class="form-control expiry-month" name="expiry-month" id="expiry-month"
-                    aria-describedby="zipHelp" placeholder="Enter expiry month" />
+                  <input disabled type="text" class="form-control expiry-month" name="expiry-month" id="expiry-month" aria-describedby="zipHelp" placeholder="Enter expiry month" />
                 </div>
                 <div class="form-group">
                   <label for="expiry-year">Expiry Year</label>
-                  <input disabled type="text" class="form-control expiry-month" name="expiry-year" id="expiry-year"
-                    aria-describedby="cityHelp" placeholder="Enter expiry year" />
+                  <input disabled type="text" class="form-control expiry-month" name="expiry-year" id="expiry-year" aria-describedby="cityHelp" placeholder="Enter expiry year" />
                 </div>
                 <div class="form-group">
                   <label for="cvc">CVC</label>
-                  <input disabled type="text" class="form-control cvc" name="cvc" id="cvc" aria-describedby="stateHelp"
-                    placeholder="Enter the CVC" />
+                  <input disabled type="text" class="form-control cvc" name="cvc" id="cvc" aria-describedby="stateHelp" placeholder="Enter the CVC" />
                 </div>
                 <div class="alert alert-danger" role="alert" id="error-box" style="display: none">
                   <h4 class="alert-heading">An Error Has Occured</h4>
                   <p id="error-text"></p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="$('#paypal_form').submit()" style="
-                        background-color: #32354c !important;
-                        border-color: #32354c !important;
-                      ">
+                <button type="button" class="btn btn-primary btn-block disabled" style="background-color: #32354c !important;border-color: #32354c !important;">
                   Donate
-                </button><!--Should be changed to "type=submit" when ready for use-->
+                </button>
+                <!-- <button type="submit" class="btn btn-primary btn-block" onclick="$('#paypal_form').submit()" style="background-color: #32354c !important;border-color: #32354c !important;">
+                  Donate
+                </button> -->
               </div>
             </form>
-            <script>
-              $("#stripe-form").click(false);
-            </script>
           </div>
         </div>
       </div>
@@ -192,14 +170,4 @@ thru">
 <div></div>
 <section class="testimonials py-5 text-white px-1 px-md-5 margin-top-xl" style="min-height: 300px">
   <img src="assets/img/favicon2.png" class="icon-overlay" />
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2 class="pt-2 text-center font-weight-bold">
-          <!--From our volunteers and donation recipients:-->
-        </h2>
-
-
-      </div>
-    </div>
 </section>

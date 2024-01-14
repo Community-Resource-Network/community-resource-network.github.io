@@ -2,6 +2,7 @@
 title: Give Now
 layout: default
 ---
+
 <div class="contact-clean">
   <form class="pulse animated" data-bss-subject="CRN Website Message"
     data-bss-recipient="5c9bf6ec469b800b59c422dc7a090ce7">
@@ -31,17 +32,6 @@ layout: default
     </div>
   </form>
 </div>
-<div></div>
 <section class="testimonials py-5 text-white px-1 px-md-5 margin-top-xl" style="min-height: 300px">
   <img src="assets/img/favicon2.png" class="icon-overlay" />
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2 class="pt-2 text-center font-weight-bold">
-          <!--From our volunteers and donation recipients:-->
-        </h2>
-
-
-      </div>
-    </div>
 </section>
