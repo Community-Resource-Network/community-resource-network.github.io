@@ -13,13 +13,13 @@ plugins:
 
 teams:
   - name: Red-Bell
-    stores: /_teams/red-bell/stores.yml
+    stores: _teams/red-bell/stores.yml
   - name: South Snohomish
-    stores: /_teams/south-snohomish/stores.yml
+    stores: _teams/south-snohomish/stores.yml
   - name: Kirkland
-    stores: /_teams/kirkland/stores.yml
+    stores: _teams/kirkland/stores.yml
   - name: Kent-Federal Way
-    stores: /_teams/kent-federal-way/stores.yml
+    stores: _teams/kent-federal-way/stores.yml
 
 navbar:
   - title: Volunteer
