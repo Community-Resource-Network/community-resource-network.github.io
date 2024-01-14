@@ -1,7 +1,7 @@
 ---
 title: Home
 testimonials: true
-layout: index
+layout: default
 permalink: /index2
 ---
 # Community Resource Network

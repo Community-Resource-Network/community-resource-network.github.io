@@ -13,7 +13,7 @@ CRN is run entirely by committed, trained volunteer members who complete all ope
 - Delivering goods to targeted communities, organizations and households
 - Cleaning and maintaining CRN distribution centers
 - Generating and recording reports at the conclusion of each volunteer shift
-     
+
 ## Schedule and Benefits
 Volunteer members commit to working 3-5 scheduled hours per week. In exchange for these hours of service, CRN volunteer members are eligible to receive a portion of donations which could include such items as:
 
