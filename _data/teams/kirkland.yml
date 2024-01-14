@@ -1,3 +1,5 @@
+name: Kirkland
+stores:
 - name: Whole Foods Kirkland
   address: 12501 120th Ave NE, Kirkland, WA 98034
   photo_url: https://lh5.googleusercontent.com/xENlyopb9IRSCaiAUBukU5JlwVp2O6703L3ZYmm9DiWC4IG_MLNg69GzG9OnIp1EHCt0IwtjAlisZXKEgdR7zDiWfxkQEW11qAAEr9YBbipdfvvUYMbSzw2jTMce6tl7Kg=w1280
@@ -30,65 +32,65 @@
 
 - name: Safeway Bothell
   address: 24040 Bothell Everett Hwy, Bothell, WA
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh5.googleusercontent.com/-IyElYHas5YyS-24I9Yqy7m0YIimbuc1e4JF2eBWWtCKh6w-pa7HVh6HXvD18S0rcY9DBZdmpsO5UOd8h6iQuKaLTRKs2Y5F8cGZeZ8E8qjPtgJOH9lHVvQ8Ax_zN4r0Yw=w1280
+  pickup_instructions: https://docs.google.com/document/d/1Z5WKxLXuNYZj5LQSOEx6tBITPxGOhdCFw0A-2Pph8KE/edit
 
 - name: Safeway Juanita
   address: 10020 NE 137th St, Kirkland, WA 98034
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh6.googleusercontent.com/q19KptDIvzBLzXFcHSH5VCNkeiw3CXIP8W2UT-8JyhVs72CKil2xcyFHS5cCMRi2C7Fa0OMaO4wm5aedEjFLlPcKfVQ6at_ZsRVIe1c0Rs2o3dMfv6kZh-cfi6bL4ppncA=w1280
+  pickup_instructions: https://docs.google.com/document/d/1sE8EoVJ9oLhKsHNs1EsvJPdH9-ZSeuVZ3vJLYDqMPtg/edit
 
 - name: KFC Redmond
   address: 15802 Bear Creek Pkwy, Redmond, WA 98052
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh6.googleusercontent.com/bqDKHm5vHq69LfRvBm-oxtW4trw0ukv3embxCvQaYtNnZUcVPYqejJRTkl7R3Mm-yebR_MxHJNs7mMYCIN4hLh_q8p0--rNh6edctMK6EVB8z_5iF66rLGGm7si4t0kRlA=w1280
+  pickup_instructions: https://docs.google.com/document/d/1HlS0uS8qC0mB56rt872wYkuQYflCIrlpOilKyngkZJU/edit
 
 - name: Fred Meyer Kirkland
   address: 12221 120th Ave NE, Kirkland, WA 98034
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh3.googleusercontent.com/xsopwdGptycrx_ff8WkzxOeD1m9IBHUNMUo77x8M22h4ii6ObusiOJaLIoGa-Ap6nuFeBUrD1Fw-zYr_p69-lSHsADeQklBP4GFeYnpgnpeY8-ClgusD3i9BcOYA7fliYA=w1280
+  pickup_instructions: https://docs.google.com/document/d/1y3IxN07RYYiEX8Is7ayKqUg-yb_dSE2Er1hqBwoSD_4/edit
 
 - name: Albertson's Lake Forest Park
   address: 17171 Bothell Way NE, Lake Forest Park, WA 98155
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh5.googleusercontent.com/cXvXrlZchXPsQUssiseFy2LtFN0W3IJdzyb0_Bz2kmqOPKXkn_DbA30KC6Eia1o8r5zY3wN0TkpEUJau8swv10iFKrnIhnUrh7E3zuQ4eI1nC4UYPCzkQNTAwboJFU_jYA=w1280
+  pickup_instructions: https://docs.google.com/document/d/105vNx9JgoW-RB6TbQta9W8zN74RT1tOf_0J6njvKE2k/edit
 
 - name: Metropolitan Market Houghton
   address: 10611 NE 68th St, Kirkland, WA 98033
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh4.googleusercontent.com/MrR0mwPl1mzEoz-OnicAAgZfuLp23y5wXAmhhOrmW5iPJfPWZD8G2eGBmItsGuzndGu7Xv4kKlWpWzUNArvTyZgqlsAlPkDiUXMhZJHKzlALY7m6GZHp4Ky2VIOzpd_a7w=w1280
+  pickup_instructions: https://docs.google.com/document/d/1QgfTyJX-RH-92yemoXpRTbaH4rkiLWkMqa1HxkgLsvI/edit
 
 - name: Costco Kirkland
   address: 8629 120th Avenue Northeast, Kirkland, WA 98033
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh5.googleusercontent.com/vsOLAfK9CPxSPUaFOReZM1o5051AO_3rMGIe7zUlXwk-3Rhrr1UE_r-w--_ZlG7YgrRBEV5hKdsxu46ieywB0XZLDvjciuAel_LwI6GDYX_DTtcU_NL9W1TGdiQReSguxw=w1280
+  pickup_instructions: https://docs.google.com/document/d/1MKYt_pMDDG4-MK1QjXEQ_NJTDDoYxz2G9xvPwGWK34c/edit
 
 - name: Target Bellevue
   address: 272 116th Ave NE, Bellevue, WA 98004
-  photo_url:
-  pickup_instructions:
+  photo_url: https://lh6.googleusercontent.com/w9I8l6N9n_4v_f_ausi0Nkxdn0G7Gm2ZjnwbPaR7WIMHofb4xhByUd2EerqX8PJQDnYHaEuy_NuujVFbTB4NVCyapHonR3LN4FxgoxTEUjPP_HJX6pSC3QHpp3bsXjV7yw=w1280
+  pickup_instructions: https://docs.google.com/document/d/17QpExG47VeUug7KVfIYZhfdYAIYv7nu5Y8k2wb7QM-g/edit
 
 - name: Bartell's Bella Botega
   address: 8862 161st Ave NE, Suite 102 Redmond, WA, 98052
-  photo_url:
+  photo_url: https://lh4.googleusercontent.com/wCx-1nuaDAvZVy1Fri45VkeEE4o1a7eWP66QueuMBKLPs4V4PYKVC0Jjr-aKdjBYvWJ8Xeo7XM2Fl52RrdH7mxks3gldKaSHelbf6FgMCZiMlKp-t9DkEV9Ug36XZYt_IA=w1280
   pickup_instructions:
 
 - name: Bartell's Bridle Trails
   address: 6619 132nd Ave. NE Kirkland, WA, 98033
-  photo_url:
+  photo_url: https://lh5.googleusercontent.com/xUgka1Z8j-0PzdAlmM8FN_Yk9IuOcaBgzGJtsDorIYJWDllhtIfZVOIP4ara5MYt-APHf8FiNsVXdM1kS1CybnVZ5zXtCyk1E946JE3xtcojbXJYT8KHn6g4xFK2GBH9mA=w1280
   pickup_instructions:
 
 - name: Bartell's Houghton
   address: 10625 NE 68th Kirkland, WA, 98033
-  photo_url:
+  photo_url: https://lh5.googleusercontent.com/xN8agBvdONsvKYbfpu4iZKITa5VPWtHPIyHdoxSrP96OvGAEMYEVpafyi_iao5otpH5zfpaUJnU0PkXn0i4lSsVnubJ6hpuszBnjjCj2IfQBFVFB_2sC-XPxsmgOTtM8gw=w1280
   pickup_instructions:
 
 - name: Bartell's Inglewood
   address: 14130 Juanita Dr NE SUITE \#107, Kirkland, WA 98034
-  photo_url:
+  photo_url: https://lh4.googleusercontent.com/xPw4aNDPfhqGFxaz__k52G535xXasJ4Z_zM9O_OCL6DONdrlfTBxbHya9sKbv914s1J39i8eWUaD-SOTbpDTO6X57RM8BoCSkKjb2-Wzua9Wy-yfNeN0OLSrxBQogT_CWA=w1280
   pickup_instructions:
 
 - name: Bartell's Kingsgate
   address: 14442 124th Ave. NE Kirkland, WA, 98034
-  photo_url:
+  photo_url: https://lh3.googleusercontent.com/m56o93SWIgJIlRrLRh1kMSmmw-mmxtc8cbew3FQRatpzBkavOaZdpcKQ9t55IKtuEtxLqAopYFUd8lZN6URg3cc5qeFrFtwFB7Ssn1zVknFrBZUvtpvff01JKWHEprd1Xw=w1280
   pickup_instructions:

@@ -1,3 +1,5 @@
+name: Red-Bell
+stores:
 - name: Store 1
   address: Address 1
   photo_url:
