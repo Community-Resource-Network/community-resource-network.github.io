@@ -4,27 +4,41 @@ layout: default
 permalink: /internal/stores
 ---
 
-<div class="container">
-<h1>Stores</h1>
+<div class="container mt-5">
+  <ul class="nav nav-tabs" id="teamsTabs" role="tablist">
+    {% for team in site.teams %}
+      <li class="nav-item">
+        <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{ team.name | slugify }}-tab" data-toggle="tab" href="#{{ team.name | slugify }}" role="tab" aria-controls="{{ team.name | slugify }}" aria-selected="true">{{ team.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<div class="tabs">
-  <button class="tab" onclick="openTab('team1')">Team 1</button>
-  <button class="tab" onclick="openTab('team2')">Team 2</button>
-  <!-- Add more buttons for more teams -->
-</div>
-
-<div id="team1" class="tabcontent">
-  <div class="store">
-    <img src="store1.jpg" alt="Store 1">
-    <h2>Store 1</h2>
-    <p>Address 1</p>
+  <div class="tab-content" id="teamsTabsContent">
+    {% for team in site.teams %}
+      <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{ team.name | slugify }}" role="tabpanel" aria-labelledby="{{ team.name | slugify }}-tab">
+        <div class="row">
+          {% for store in team.stores %}
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <a href="{{ store.pickup_instructions }}" target="_blank" rel="noopener noreferrer">
+                  <img src="{{ store.photo_url }}" class="card-img-top" alt="{{ store.name }}">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">{{ store.name }}</h5>
+                  <p class="card-text"><a href="https://www.google.com/maps/search/?api=1&query={{ store.address }}">{{ store.address }}</a></p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
   </div>
-  <!-- Add more divs for more stores -->
 </div>
 
-<div id="team2" class="tabcontent">
-  <!-- Add stores for team 2 -->
-</div>
-
-<!-- Add more divs for more teams -->
-</div>
+<script>
+  // Add Bootstrap's tab functionality (ensure Bootstrap JS is included)
+  $(document).ready(function(){
+    $('#teamsTabs').tab();
+  });
+</script>

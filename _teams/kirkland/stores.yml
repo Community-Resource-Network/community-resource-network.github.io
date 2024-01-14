@@ -1,0 +1,94 @@
+- name: Whole Foods Kirkland
+  address: 12501 120th Ave NE, Kirkland, WA 98034
+  photo_url: https://lh5.googleusercontent.com/xENlyopb9IRSCaiAUBukU5JlwVp2O6703L3ZYmm9DiWC4IG_MLNg69GzG9OnIp1EHCt0IwtjAlisZXKEgdR7zDiWfxkQEW11qAAEr9YBbipdfvvUYMbSzw2jTMce6tl7Kg=w1280
+  pickup_instructions: https://docs.google.com/document/d/1UeWIcJIevOzCoI3cW093SJvpqpKgoJ4dA7313CoMY9c/edit
+
+- name: Whole Foods Redmond
+  address: 17991 Redmond Way, Redmond, WA 98052
+  photo_url: https://lh5.googleusercontent.com/qMuaQQ_29UP_xkGHNA50uY2hnlfxVJUZpzve9tLHsTDiD4nX8hMkZfG0US0O-IB7hgA8YrahribbIKmoQFtJsPSJX4Dy4nW_6ky3blXjo6TtUjKj9kKpmjKlVCUyI-CqYA=w1280
+  pickup_instructions: https://docs.google.com/document/d/1jm6fy55n2To8RaLHVlL10LJobeWtmtiM5SNlZZfBRbQ/edit
+
+- name: QFC Redmond
+  address: 15800 Redmond Way, Redmond, WA 98052
+  photo_url: https://lh3.googleusercontent.com/wO_7ACypLcqqDJ6cdIVV2v84xevoAy7gg2rsAMHCrBJ84rbifrGeduec-3Qfnd45ExkXtRBvlFCne0yms4QzPMRDVDXvVhudeM-v6A33cLmmu0RXSO3A5LNfH0U3JWZbxg=w1280
+  pickup_instructions: https://docs.google.com/document/d/1FyWRlOHuMf-soMSkoMoub72LHIAD73EXme_OwMIvMe4/edit
+
+- name: QFC Inglewood
+  address: 14130 Juanita Dr NE, Kirkland, WA 98034
+  photo_url: https://lh6.googleusercontent.com/t_X0sOm8T01XBOmM-42NJLmFAbEe9yEnf8u_83143qbrhGZ0Dibo1j6yZybV7w12u4QG9FhA1UzL9942HXWfMNnWPVxXXzoS5SrFVYorJr3AwDn2Q7IiYrkxNEwGW6KaoQ=w1280
+  pickup_instructions: https://docs.google.com/document/d/1EwjaYxNmfuQsKnvZNEf-EfBdQPxUQ-wWGxmkYV4iYx0/edit
+
+- name: PCC Kirkland
+  address: 454 Kirkland Way, Kirkland, WA 98033
+  photo_url: https://lh5.googleusercontent.com/02emj0bzmwLydzRxU8jxyyK_eR0uj5-Rb7DjiWzLf7It9W_0NYI9b6_w951RoRR77fgTcjR6i0lbKVMx4kkIKbD10BF3lHqhUHn6Xsfo4ZJOBfLF_3a3dsRZhlmRodJg9Q=w1280
+  pickup_instructions: https://docs.google.com/document/d/1tGV8Hy_SxLYcU6j9zqmYIhF1hG5V2COZChyCxWatZmE/edit
+
+- name: Trader Joe's Bellevue
+  address: 416 116th Ave NE, Bellevue, WA 98004
+  photo_url: https://lh3.googleusercontent.com/Nqg6mxOTAEL3Pl0hXHpAMul3LaBr5lnGnekHGZ6MaxnJLPCnCXe2KCCaJfIFiJR5_GgulPAkl54nSuV752NgIMlY68reTblP9hj8598HKyPChuXNKfYMhgCyvAJi4y_9Xg=w1280
+  pickup_instructions: https://docs.google.com/document/d/1bBpQwUnwFbl15TvwXHbw0gjGuzeYxo0wsA3cVWh8pNI/edit
+
+- name: Safeway Bothell
+  address: 24040 Bothell Everett Hwy, Bothell, WA
+  photo_url:
+  pickup_instructions:
+
+- name: Safeway Juanita
+  address: 10020 NE 137th St, Kirkland, WA 98034
+  photo_url:
+  pickup_instructions:
+
+- name: KFC Redmond
+  address: 15802 Bear Creek Pkwy, Redmond, WA 98052
+  photo_url:
+  pickup_instructions:
+
+- name: Fred Meyer Kirkland
+  address: 12221 120th Ave NE, Kirkland, WA 98034
+  photo_url:
+  pickup_instructions:
+
+- name: Albertson's Lake Forest Park
+  address: 17171 Bothell Way NE, Lake Forest Park, WA 98155
+  photo_url:
+  pickup_instructions:
+
+- name: Metropolitan Market Houghton
+  address: 10611 NE 68th St, Kirkland, WA 98033
+  photo_url:
+  pickup_instructions:
+
+- name: Costco Kirkland
+  address: 8629 120th Avenue Northeast, Kirkland, WA 98033
+  photo_url:
+  pickup_instructions:
+
+- name: Target Bellevue
+  address: 272 116th Ave NE, Bellevue, WA 98004
+  photo_url:
+  pickup_instructions:
+
+- name: Bartell's Bella Botega
+  address: 8862 161st Ave NE, Suite 102 Redmond, WA, 98052
+  photo_url:
+  pickup_instructions:
+
+- name: Bartell's Bridle Trails
+  address: 6619 132nd Ave. NE Kirkland, WA, 98033
+  photo_url:
+  pickup_instructions:
+
+- name: Bartell's Houghton
+  address: 10625 NE 68th Kirkland, WA, 98033
+  photo_url:
+  pickup_instructions:
+
+- name: Bartell's Inglewood
+  address: 14130 Juanita Dr NE SUITE \#107, Kirkland, WA 98034
+  photo_url:
+  pickup_instructions:
+
+- name: Bartell's Kingsgate
+  address: 14442 124th Ave. NE Kirkland, WA, 98034
+  photo_url:
+  pickup_instructions:

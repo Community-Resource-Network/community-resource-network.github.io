@@ -1,0 +1,9 @@
+- name: Store 1
+  address: Address 1
+  photo_url:
+  pickup_instructions:
+
+- name: Store 2
+  address: Address 2
+  photo_url:
+  pickup_instructions:
