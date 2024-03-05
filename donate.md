@@ -82,7 +82,8 @@ layout: default
             <div class="d-none d-lg-block d-xl-block" style="padding-top: 105px"></div>
             <div class="d-none d-sm-block d-md-block" style="padding-top: 20px"></div>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 d-flex flex-column justify-content-around text-center">
+            <img class="mx-auto" src="/assets/img/crn-dark-new2.png" alt="CRN Logo" width="200">
             <script async
               src="https://js.stripe.com/v3/buy-button.js">
             </script>
