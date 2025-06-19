@@ -25,7 +25,7 @@ permalink: /internal/stores
                 </a>
                 <div class="card-body">
                   <h5 class="card-title">{{ store.name }}</h5>
-                  <p class="card-text"><a href="https://www.google.com/maps/search/?api=1&query={{ store.address }}">{{ store.address }}</a></p>
+                  <p class="card-text"><a href="https://www.google.com/maps/search/?api=1&query={{ store.address }}" target="_blank" rel="noopener noreferrer">{{ store.address }}</a></p>
                 </div>
               </div>
             </div>
