@@ -31,7 +31,7 @@ layout: homepage
       </li>
       <li class="list-item">
         We consistently serve over 500 households in the greater Puget
-        Sound/Salish Sea area.
+        Sound area.
       </li>
       <li class="list-item">
         Our 100% volunteer structure and business model provide economical,
