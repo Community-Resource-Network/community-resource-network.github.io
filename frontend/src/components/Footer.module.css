@@ -1,0 +1,183 @@
+.footer {
+  position: relative;
+  background: var(--color-primary-dark);
+  color: white;
+  margin-top: auto;
+}
+
+.wave {
+  position: absolute;
+  top: -99px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  color: var(--color-primary-dark);
+  overflow: hidden;
+}
+
+.wave svg {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: var(--space-4xl) 0 var(--space-xl);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+  }
+}
+
+.brandSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+}
+
+.logoIcon {
+  height: 40px;
+  width: auto;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.logoText span {
+  display: block;
+}
+
+.logoText strong {
+  color: white;
+  font-weight: 700;
+}
+
+.mission {
+  font-size: 1rem;
+  opacity: 0.9;
+  max-width: 30ch;
+}
+
+.taxInfo {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+.taxInfo p {
+  font-size: 0.875rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-accent-light);
+  margin-bottom: var(--space-md);
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.footerNav a {
+  color: white;
+  opacity: 0.9;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity var(--transition-fast);
+}
+
+.footerNav a:hover {
+  opacity: 1;
+  color: var(--color-accent-light);
+}
+
+.contactSection address {
+  font-style: normal;
+  opacity: 0.9;
+}
+
+.contactSection p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.acknowledgement {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 1024px) {
+  .acknowledgement {
+    grid-column: auto;
+  }
+}
+
+.acknowledgementText {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.bottom {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.copyright {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+.credits {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+

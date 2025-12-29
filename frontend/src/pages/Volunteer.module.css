@@ -1,0 +1,123 @@
+.volunteer {
+  background: var(--color-cream);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--color-sand) 0%, var(--color-cream) 100%);
+  padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: var(--space-lg);
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: var(--color-earth);
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+/* Cards */
+.cards {
+  padding: var(--space-4xl) var(--space-lg);
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .cardGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Apply Section */
+.apply {
+  padding: var(--space-4xl) var(--space-lg);
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+}
+
+.applyContent {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.applyContent h2 {
+  color: var(--color-charcoal);
+  margin-bottom: var(--space-md);
+}
+
+.applyContent p {
+  color: var(--color-charcoal);
+  opacity: 0.9;
+  margin: 0 auto var(--space-xl);
+}
+
+/* Testimonials */
+.testimonials {
+  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+  padding: var(--space-4xl) var(--space-lg);
+}
+
+.testimonialsTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: var(--space-xl);
+}
+
+/* FAQ */
+.faq {
+  padding: var(--space-4xl) var(--space-lg);
+  background: var(--color-warm-white);
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .faqGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.faqItem {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.faqItem h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-primary-dark);
+}
+
+.faqItem p {
+  font-size: 1rem;
+  color: var(--color-earth);
+}
+

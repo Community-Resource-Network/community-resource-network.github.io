@@ -1,0 +1,228 @@
+.contact {
+  background: var(--color-cream);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--color-sand) 0%, var(--color-cream) 100%);
+  padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: var(--space-lg);
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: var(--color-earth);
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+/* Main Section */
+.main {
+  padding: var(--space-4xl) var(--space-lg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1.2fr;
+    align-items: start;
+  }
+}
+
+/* Info Column */
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.infoCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.infoCard h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-primary-dark);
+}
+
+.infoCard p {
+  color: var(--color-earth);
+  margin-bottom: var(--space-md);
+}
+
+.volunteerNote {
+  padding: var(--space-md);
+  background: var(--color-cream);
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+}
+
+.volunteerNote a {
+  font-weight: 600;
+}
+
+.addressCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.addressCard h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-md);
+}
+
+.addressCard address {
+  font-style: normal;
+  color: var(--color-earth);
+  line-height: 1.7;
+}
+
+.addressCard address p {
+  margin-bottom: 0;
+}
+
+.quickLinks {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  color: white;
+}
+
+.quickLinks h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-md);
+  color: white;
+}
+
+.quickLinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.quickLinks li a {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  color: white;
+  transition: background var(--transition-fast);
+}
+
+.quickLinks li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Form Column */
+.formCard {
+  background: white;
+  padding: var(--space-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.form h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: var(--space-lg);
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: var(--space-sm);
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: var(--space-md);
+  border: 2px solid var(--color-sand);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-charcoal);
+  background: var(--color-warm-white);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: var(--color-stone);
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.1);
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form button {
+  width: 100%;
+}
+
+/* Success Message */
+.successMessage {
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+.successIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-lg);
+  background: var(--color-primary);
+  color: white;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.successMessage h2 {
+  margin-bottom: var(--space-md);
+}
+
+.successMessage p {
+  color: var(--color-earth);
+  margin: 0 auto var(--space-xl);
+  max-width: 30ch;
+}
+

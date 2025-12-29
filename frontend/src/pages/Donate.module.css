@@ -1,0 +1,279 @@
+.donate {
+  background: var(--color-cream);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-md);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-lg);
+}
+
+.hero h1 {
+  color: white;
+  margin-bottom: var(--space-lg);
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+/* Main Section */
+.main {
+  padding: var(--space-4xl) var(--space-lg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+/* Info Column */
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.infoCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.infoCard h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-primary-dark);
+}
+
+.infoCard > p {
+  color: var(--color-earth);
+  margin-bottom: var(--space-lg);
+}
+
+.taxInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--color-cream);
+  border-radius: var(--radius-md);
+}
+
+.taxInfo span {
+  color: var(--color-stone);
+  font-size: 0.875rem;
+}
+
+.taxInfo strong {
+  font-family: monospace;
+  font-size: 1.125rem;
+  color: var(--color-charcoal);
+}
+
+.impactCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.impactCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-lg);
+}
+
+.impactList li {
+  display: flex;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.impactList li:last-child {
+  margin-bottom: 0;
+}
+
+.impactIcon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: var(--color-cream);
+  border-radius: var(--radius-md);
+}
+
+.impactList strong {
+  display: block;
+  font-size: 1.125rem;
+  color: var(--color-charcoal);
+}
+
+.impactList p {
+  font-size: 0.875rem;
+  color: var(--color-stone);
+}
+
+.promiseCard {
+  background: linear-gradient(135deg, var(--color-cream), var(--color-sand));
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+}
+
+.promiseCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-md);
+}
+
+.promiseCard > p {
+  color: var(--color-earth);
+  margin-bottom: var(--space-md);
+}
+
+.promiseCard .quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-primary-dark);
+}
+
+/* Donate Column */
+.donateCard {
+  background: white;
+  padding: var(--space-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  position: sticky;
+  top: calc(80px + var(--space-xl));
+}
+
+.donateHeader {
+  margin-bottom: var(--space-xl);
+}
+
+.donateLogo {
+  display: block;
+  height: 80px;
+  width: auto;
+  margin: 0 auto var(--space-md);
+}
+
+.donateHeader h2 {
+  font-size: 1.75rem;
+}
+
+.stripeContainer {
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secureNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-sand);
+  color: var(--color-stone);
+  font-size: 0.875rem;
+}
+
+/* Alternatives */
+.alternatives {
+  padding: var(--space-4xl) var(--space-lg);
+  background: var(--color-warm-white);
+}
+
+.alternatives h2 {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.altGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .altGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.altCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.altIcon {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+.altCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-sm);
+}
+
+.altCard address {
+  font-style: normal;
+  color: var(--color-earth);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.altCard p {
+  color: var(--color-earth);
+  font-size: 0.9375rem;
+  margin-bottom: var(--space-md);
+}
+
+.altCard a {
+  font-weight: 600;
+}
+

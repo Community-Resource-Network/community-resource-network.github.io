@@ -1,0 +1,165 @@
+{
+  "organization": {
+    "name": "Community Resource Network",
+    "shortName": "CRN",
+    "tagline": "Rescuing surplus, rebuilding communities",
+    "mission": "To rescue surplus food and usable items for redistribution to organizations and families in need in our communities, to reduce and prevent waste, and to encourage better management of the surplus that would otherwise end up in landfills.",
+    "founded": 1998,
+    "federalTaxId": "04-3655932",
+    "ubi": "602 205 486",
+    "address": {
+      "line1": "Community Resource Network",
+      "line2": "P.O. Box 13202",
+      "city": "Mill Creek",
+      "state": "WA",
+      "zip": "98082"
+    },
+    "volunteerApplicationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSddEuOySvjUFMH2vp13A4qIF_5QfE1UNP5z_uhAaIHaEOIoyA/viewform?usp=sf_link",
+    "stripeButtonId": "buy_btn_1OqpXCGvkCVznbelaolWjSwO",
+    "stripePublishableKey": "pk_live_51OqoXnGvkCVznbelHr8bITR6HWB8X2j9YSLNrJtCegmRTtklxo26qpWfCw6drcqFIPFvIN8wxCF6W6tLNyggDYs8009p9OIGmN"
+  },
+  "stats": {
+    "poundsSaved": "2.2 million",
+    "householdsServed": "500+",
+    "operationDays": "7 days a week"
+  },
+  "coreValues": [
+    {
+      "id": "resourcefulness",
+      "title": "Resourcefulness",
+      "description": "Making the most of every donation",
+      "points": [
+        "We saved more than 2.2 million pounds of unsalable grocery and household items from general disposal last year.",
+        "We consistently serve over 500 households in the greater Puget Sound area.",
+        "Our 100% volunteer structure and business model provide economical, streamlined services without burdening taxpayers.",
+        "Our volunteer members become adept at utilizing and repurposing a wide variety of items that would otherwise be tossed."
+      ]
+    },
+    {
+      "id": "environmental",
+      "title": "Environmental Responsibility",
+      "description": "Protecting our planet through thoughtful distribution",
+      "points": [
+        "CRN is committed to the thoughtful distribution of all usable donations that we receive.",
+        "Inedible grocery items are utilized by local farmers and gardeners before being considered for city/county compost.",
+        "Packaging from inedible grocery donations is separated out for reuse or recycling.",
+        "Returned, damaged or shopworn items are distributed or repurposed before being considered for recycling or disposal."
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Personal Responsibility & Growth",
+      "description": "Empowering individuals through service",
+      "points": [
+        "Our volunteer members are acutely aware of the ripple effect created through meeting basic human needs. Each need we meet frees up resources for meeting other needs in our community and in the world.",
+        "Many of our volunteer members receive a portion of the donations. These volunteer members show up consistently to work hard and realize the great value of their labor."
+      ]
+    },
+    {
+      "id": "reliability",
+      "title": "Reliability",
+      "description": "Consistent service you can count on",
+      "points": [
+        "Our teams process donations 7 days a week including major holidays.",
+        "Our teams process donations during inclement weather.",
+        "We accept virtually any item offered by our donating partners.",
+        "We maintain records of donations and can supply the record to donors for tax purposes.",
+        "Our volunteer members realize the strength of a committed team effort and are particularly reliable in fulfilling their assigned duties for the organization.",
+        "Our volunteer members willingly support and fill in for one another when calendar conflicts, sickness or emergencies arise."
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Serving Our Community",
+      "description": "A conduit for positive impact",
+      "servedGroups": [
+        "Senior housing communities",
+        "Smaller, local foodbanks",
+        "Other non-profit assistance organizations",
+        "Shelters/Homeless",
+        "Immigrant families",
+        "Disabled individuals",
+        "Unemployed/Underemployed households",
+        "Isolated senior citizens and individuals",
+        "Families in short-term crisis situations",
+        "Volunteer member households"
+      ]
+    },
+    {
+      "id": "dignity",
+      "title": "Dignity",
+      "description": "Preserving worth through service",
+      "points": [
+        "Many of our beneficiaries are isolated, reluctant to ask for help or overlooked by other organized distribution systems. By identifying and delivering necessities to such families/individuals, CRN volunteer members make a personal connection that conveys dignity and worth.",
+        "Our volunteer members may receive a portion of donations. These volunteer members work diligently and preserve personal dignity through the sense of 'earning' through service."
+      ]
+    }
+  ],
+  "volunteer": {
+    "intro": "CRN is run entirely by committed, trained volunteer members who complete all operational tasks.",
+    "tasks": [
+      "Picking up donations",
+      "Transporting donations to CRN distribution centers",
+      "Keeping record of donations",
+      "Sorting, storing, and packing donations",
+      "Delivering goods to targeted communities, organizations and households",
+      "Cleaning and maintaining CRN distribution centers",
+      "Generating and recording reports at the conclusion of each volunteer shift"
+    ],
+    "schedule": "Volunteer members commit to working 3-5 scheduled hours per week.",
+    "benefits": [
+      "Bakery items",
+      "Produce",
+      "Dairy products",
+      "Deli items",
+      "Household items",
+      "Pet supplies",
+      "Flowers"
+    ],
+    "requirements": [
+      "Reliable transportation",
+      "Valid driver's license",
+      "Current auto insurance"
+    ]
+  },
+  "partners": {
+    "contributing": {
+      "title": "Contributing Partners",
+      "description": "CRN currently partners with more than a dozen Puget Sound area chain and independent businesses. These businesses positively impact the local community by granting CRN to be a conduit to the community, distributing items they generously and thoughtfully donate.",
+      "note": "Contributing partners have peace of mind to donate generously since the Bill Emerson Good Samaritan Food Donation Act limits liability of good faith donors."
+    },
+    "receiving": {
+      "title": "Receiving Partners",
+      "description": "CRN currently partners with local communities and organizations.",
+      "organizations": [
+        "Senior housing communities",
+        "Smaller, local foodbanks",
+        "Other non-profit assistance organizations",
+        "Shelters/Homeless"
+      ],
+      "individuals": [
+        "Immigrant families",
+        "Disabled individuals",
+        "Unemployed/Underemployed households",
+        "Isolated senior citizens and individuals",
+        "Families in short-term crisis situations"
+      ]
+    },
+    "financial": {
+      "title": "Financial Partners",
+      "description": "CRN has NO paid staff. Our volunteer members accomplish every task necessary to fulfill our purpose.",
+      "tasks": [
+        "Processing donations",
+        "Maintaining distribution sites",
+        "Manage and administer non-profit business"
+      ],
+      "note": "Our streamlined business model ensures that monetary donations are directed toward essential operating expenses, not salaries. We make the most of every dollar just as we make the most of every tomato, every orange, every egg, and every brussel sprout."
+    }
+  },
+  "about": {
+    "whoWeAre": "CRN is a 501(c)3 non-profit volunteer organization established in 1998 and serves the greater Puget Sound area.",
+    "acknowledgement": "Community Resource Network acknowledges that we gather and serve on the traditional territory of Coast Salish peoples, who have stewarded this land since time immemorial. We honor their enduring presence and the ongoing relationship between the Coast Salish people and this land.",
+    "specialThanks": "We wish to thank Kaeden Brinkman for his creativity, dedication, and generosity in building the CRN website."
+  }
+}
+

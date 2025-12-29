@@ -1,0 +1,246 @@
+.about {
+  background: var(--color-cream);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--color-sand) 0%, var(--color-cream) 100%);
+  padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: var(--space-lg);
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: var(--color-earth);
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+/* Mission */
+.mission {
+  padding: var(--space-4xl) var(--space-lg);
+  background: var(--color-primary);
+}
+
+.missionContent {
+  text-align: center;
+}
+
+.missionContent h2 {
+  color: white;
+  margin-bottom: var(--space-lg);
+}
+
+.missionText {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-style: italic;
+  line-height: 1.6;
+  color: white;
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+/* Values Section */
+.valuesSection {
+  padding: var(--space-4xl) var(--space-lg);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.valueBlock {
+  display: flex;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-3xl);
+  padding: var(--space-xl);
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.valueBlock.alternate {
+  flex-direction: row-reverse;
+}
+
+.valueIcon {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, var(--color-cream), var(--color-sand));
+  border-radius: var(--radius-lg);
+}
+
+.valueContent {
+  flex: 1;
+}
+
+.valueContent h3 {
+  margin-bottom: var(--space-sm);
+  color: var(--color-primary-dark);
+}
+
+.valueDesc {
+  color: var(--color-stone);
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+}
+
+.valuePoints {
+  margin-top: var(--space-md);
+}
+
+.valuePoints li {
+  position: relative;
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  color: var(--color-earth);
+  font-size: 1rem;
+}
+
+.valuePoints li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.servedGroups p {
+  font-weight: 600;
+  color: var(--color-charcoal);
+  margin-bottom: var(--space-sm);
+}
+
+.groupsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.groupsList li {
+  padding: var(--space-xs) var(--space-md);
+  background: var(--color-cream);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  color: var(--color-earth);
+}
+
+@media (max-width: 768px) {
+  .valueBlock,
+  .valueBlock.alternate {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .valuePoints li {
+    text-align: left;
+  }
+}
+
+/* Info Section */
+.info {
+  padding: var(--space-3xl) var(--space-lg);
+  background: var(--color-warm-white);
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .infoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.infoCard {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.infoCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-lg);
+  color: var(--color-primary-dark);
+}
+
+.infoList li {
+  margin-bottom: var(--space-sm);
+  color: var(--color-earth);
+}
+
+.infoList strong {
+  color: var(--color-charcoal);
+}
+
+.address {
+  font-style: normal;
+  color: var(--color-earth);
+  line-height: 1.8;
+}
+
+/* Acknowledgement */
+.acknowledgement {
+  padding: var(--space-3xl) var(--space-lg);
+  background: var(--color-sand);
+}
+
+.acknowledgementContent {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.acknowledgementContent h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-lg);
+}
+
+.acknowledgementContent p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-earth);
+  margin: 0 auto;
+}
+
+/* CTA */
+.cta {
+  padding: var(--space-4xl) var(--space-lg);
+  background: var(--color-cream);
+}
+
+.ctaContent {
+  text-align: center;
+}
+
+.ctaContent h2 {
+  margin-bottom: var(--space-md);
+}
+
+.ctaContent p {
+  color: var(--color-earth);
+  margin: 0 auto var(--space-xl);
+}
+

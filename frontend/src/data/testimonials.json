@@ -1,0 +1,125 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "We are thankful for whatever you can share. To be honest, we are eating healthier that we ever have before.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 2,
+      "quote": "Thank you for packing the most delicious bounty of groceries for us this week.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 3,
+      "quote": "I can't tell you how those yellow sunflowers brightened my day. Flowers are something I never treat myself to, so now I'm very spoiled.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 4,
+      "quote": "Thank you for the groceries. I shared some of the fresh produce with a mom who had nothing fresh to eat. She was thrilled!",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 5,
+      "quote": "Oh my goodness, thank you, thank you, thank you for the amazing grocery blessing. So many surprises and wonderful things I cannot even list them!",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 6,
+      "quote": "Thank you to all those who work so hard to provide for us. I cannot express my gratitude enough.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 7,
+      "quote": "We really are so thankful for whatever you bring, but also confess that I was nearly PRAYING for a cupcake after teaching all day. Cupcakes are really my weakness. I really needed one today and God heard.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 8,
+      "quote": "I love getting surprise groceries and figuring out what to do with them!! I am learning so much.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 9,
+      "quote": "My husband is out of work. My family greatly appreciates the groceries. We have also been given compost and that greatly helps feed our ~35 chickens who provide us with eggs.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 10,
+      "quote": "I am thankful not only for the food, but because there are people who care for those in need and truly want to help.",
+      "author": "Community Recipient",
+      "type": "recipient"
+    },
+    {
+      "id": 11,
+      "quote": "Oh, eggs, I'm so excited for eggs! Now my kids can have breakfast before they go to school.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 12,
+      "quote": "I will talk about volunteering with CRN when I am an old lady, tearing up about how incredible it is when a community of many different people pull together to help one another.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 13,
+      "quote": "This food is hope to so many. It tells them we can get through this - together.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 14,
+      "quote": "I've been bringing donations to new neighbor who just started a business. I bring food for the family, compost for his little goats and chickens, and a box of extra bakery which he shares with others. He gets very excited and is thankful.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 15,
+      "quote": "Our financial stress caused guilt and a sense of lost worth. Volunteering with CRN erased the horrible feeling of shame. I can help my family without feeling shame and I look for others to help also. It has given me back a sense of worthiness.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 16,
+      "quote": "My neighbor has multiple health issues and is unable to leave his home. He has asked for help and is thankful. Even just an apple brings him happiness. I take him a box each Sunday afternoon.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 17,
+      "quote": "I am helping feed several families who've lost jobs. It is a pleasure to see their surprise and delight in the littlest things - an onion or a melon. You'd think it was treasure!",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 18,
+      "quote": "I delivered food to a woman in need and explained CRN outreach. When I offered to bring food each week, her eyes filled with tears and you could see a weight lifted off her shoulders.",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 19,
+      "quote": "As a recent widow I am so very thankful for the blessing of food! There is no paycheck coming in anymore and donations from the stores help so much. Two of my neighbors are also widows. It is a joy to help them as well! I am so very thankful to be a part of our team!",
+      "author": "Volunteer",
+      "type": "volunteer"
+    },
+    {
+      "id": 20,
+      "quote": "One of the children in a family I deliver to literally squeals at every piece of fresh fruit! It makes her so happy!",
+      "author": "Volunteer",
+      "type": "volunteer"
+    }
+  ]
+}
+
