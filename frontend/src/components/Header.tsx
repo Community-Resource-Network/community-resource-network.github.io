@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Header.module.css';
-import content from '../data/content.json';
 
 const navLinks = [
   { path: '/', label: 'Home' },
