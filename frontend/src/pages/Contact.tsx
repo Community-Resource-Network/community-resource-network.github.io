@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import type { FormEvent } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
@@ -17,21 +16,51 @@ export default function Contact() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    // Load Bootstrap Studio Smart Forms script
+    const script = document.createElement('script');
+    script.src = '/assets/js/smart-forms.min.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    // Listen for messages from Bootstrap Studio form handler
+    const handleMessage = (event: MessageEvent) => {
+      // Bootstrap Studio sends messages with operation status
+      if (event.data?.operation === 'showMessage') {
+        if (event.data.status === 'loading') {
+          setIsSubmitting(true);
+        } else if (event.data.status === 'success') {
+          setIsSubmitting(false);
+          setIsSubmitted(true);
+          // Reset form after successful submission
+          if (formRef.current) {
+            formRef.current.reset();
+            setFormState({ name: '', email: '', message: '' });
+          }
+        } else if (event.data.status === 'error') {
+          setIsSubmitting(false);
+          // You could add error state handling here if needed
+        }
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+
+    return () => {
+      // Cleanup script on unmount
+      const existingScript = document.querySelector('script[src="/assets/js/smart-forms.min.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+      window.removeEventListener('message', handleMessage);
+    };
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormState(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = async (e: FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
   };
 
   return (
@@ -130,7 +159,12 @@ export default function Contact() {
                     </Button>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className={styles.form}>
+                  <form
+                    ref={formRef}
+                    data-bss-recipient="5c9bf6ec469b800b59c422dc7a090ce7"
+                    data-bss-subject="CRN Website Message"
+                    className={styles.form}
+                  >
                     <h2>Send a Message</h2>
                     
                     <div className={styles.formGroup}>
