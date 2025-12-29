@@ -6,6 +6,7 @@ import Volunteer from './pages/Volunteer';
 import Partners from './pages/Partners';
 import Donate from './pages/Donate';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </Router>
